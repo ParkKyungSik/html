@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title> My Favorite Games </title>
+<head>
+  <script>
+		alert('경식s 게임추천!')
+	</script>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").toggle();
+    });
+  });
+  </script>
+<style>
+    ul{list-style-type: none;}
+    #clear{clear:both;}
+    #logo{padding:30px 0 0 30px; float:left;}
+    #top{margin:40px 10px 0 0; float:right;}
+    #main_menu{font-size:12px; color:orange; background-color:orange; margin-top:15px; padding: 12px; text-align:center;}
+    #main_menu li{padding: 0 20px 0 20px; display: inline;}
+  </style>
+</head>
+<body>
+    <div id="hearthstone"><img src="images/hearthstone_icon.png", width="100", height="100"><h1>하스스톤-워크래프트의 영웅들</h1></div>
+    <div id="clear"></div>
+      <center>
+        <font color=red size=5px> 하스스톤 관련 홈페이지 </font>
+      </center>
+    <ul id ="main_menu">
+        <li><a href="https://playhearthstone.com/ko-kr/">블리자드 - 하스스톤 공식 홈페이지</a></li>
+        <li><a href="https://www.facebook.com/HearthstonekoKR/">하스스톤 공식 페이스북</a></li>
+        <li><a href="https://www.youtube.com/Hearthstone">하스스톤 공식 유튜브</a></li>
+    </ul>
+    </body>
+    <body bgcolor=yellow style="margin: 10px 10px 5px 5px;">
+  <div style="background: blue;padding: 10px 10px 10px 10px;">
+    <center>
+      <font color=white size=5px> 하스스톤 관련 커뮤티니 </font>
+    </center>
+  </div>
+    <table>
+      <a href="https://www.hearthstudy.com/">
+        <img src="images/hearthstudy.jfif"title="하스스터디" width="400" height="250"/></a>
+      <a href="http://hs.inven.co.kr/">
+        <img src="images/inven.jfif"title="하스스톤 인벤" width="450" height="250"/></a>
+      <a href="https://tempostorm.com/">
+        <img src="images/tempostorm.jfif"title="TempoStorm" width="450" height="250"/></a>
+        <button>사이트별 특징</button>
+        <p>하스스터디-주로 덱리스트나 주간별 메타덱들 순위 집계를 위해 이용하지만, 올해 들어 하스 관련 이슈를 소개하기도 하면서 주제의 다양화 시도중.</p>
+        <p>인벤-덱시스트나 덱파워 순위집계보단 그냥 정말로 뉴비들을 위한 하스스톤이란 무엇인가부터 고인물들을 위한 노하우까지 망라되어있는 공략+이슈 사이트.</p>
+        <p>템포스톰-위의 두 사이트들과는 달리 해외 사이트라 영어로 게시되어 있다는 점이 단점. 허나 영어를 할줄만 안다면 하스관련 이슈들을 가장 먼저 알 수 있음.</p>
+    </table>
+    <table>
+      <h2>역대 하스스톤 트레일러 top3(흥겨움 주의)</h2>
+      <h3>카라잔</h3>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/dLxOTg2vN6s" frameborder="0"
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>라스타칸</h3>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/vBIUhk-FqEI" frameborder="0"
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <h3>탐험가연맹</h3>
+       <iframe width="640" height="360" src="https://www.youtube.com/embed/Tq8cXFL7uzE" frameborder="0"
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </table>
+</body>
+</html>
